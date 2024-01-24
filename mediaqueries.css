@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.media {
+    width:200px;
+    height:200px;
+    background-color: red;
+}
+
+@media (max-width : 300px) {
+    .media{
+        background-color: green;
+    }
+}
+
+.media1 {
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+}
+
+@media (min-width: 301px) and (max-width: 400px) {
+    .media1 {
+        background-color: pink;
+    }
+}
+
+.media2 {
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .media2 {
+        background-color: red;
+    }
+}
+
+.media3 {
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+}
+
+@media (max-width:600px) {
+    .media3 {
+        background-color: blue;
+    }
+}
